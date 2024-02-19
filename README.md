@@ -30,7 +30,7 @@ Task:
 1. Python app exists in 'task/applications/python-app' directory. But the Dockerfile for it is empty (this can be found in the 'task/applications/docker' directory), write a Dockerfile for it and build the docker image. This will be used when deploying the application in the kind cluster later.
 2. Similarly, the deployment yaml file is empty (this can be found in the 'task/applications/k8s' directory). Write the deployment yaml so it can be used in the below tasks. The deployment yaml MUST have '2' replicas for the pod, and a rolling update strategy feature.
 
-3. Deploy ArgoCD using the manifest file in task/argo.yaml - do this in the 'tiacourse' namespace
+3. Deploy ArgoCD using the manifest file in task/argo-install.yaml - do this in the 'tiacourse' namespace
 4. In the 'task/applications/argocd-app' directory, write an ArgoCD application manifest to deploy the application in the 
 'task/applications/k8s/' directory to your kind cluster. Bonus points if you add some interesting sync policies
 5. A lovely documentation of your process is welcomed. (Optional)

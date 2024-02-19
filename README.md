@@ -4,7 +4,7 @@
 
 ## You have 24hrs to complete the task. 24hrs starts from when you recieved the email from Akosua.
 
-## Please DO the below Task to the best of your ability. Use the url Akosua gave you to access the lab. Build and Deploy all resources in the provision lab. Exercise WILL NOT be accepted if done in another environment. 
+## Please DO the below Task to the best of your ability. Use the url Akosua gave you to access the lab. Build and Deploy ALL resources in the provisioned lab. Exercise WILL NOT be accepted if done in another environment. 
 ## All your relevant files should to created in the '/home/coder/project' directory
 
 

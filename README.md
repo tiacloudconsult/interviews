@@ -27,6 +27,8 @@ https://github.com/tiacloudconsult/interviews.git
 
 Task:
 
+The purpose of your task is to be able to reach your web-server application when we do a 'kubectl port-forward'
+
 1. Python app exists in 'task/applications/python-app' directory. But the Dockerfile for it is empty (this can be found in the 'task/applications/docker' directory), write a Dockerfile for it and build the docker image. This will be used when deploying the application in the kind cluster later.
 2. Similarly, the deployment yaml file is empty (this can be found in the 'task/applications/k8s' directory). Write the deployment yaml so it can be used in the below tasks. The deployment yaml MUST have '2' replicas for the pod, and a rolling update strategy feature.
 

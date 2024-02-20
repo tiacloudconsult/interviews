@@ -1,1 +1,21 @@
 #Write Me
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: python-app-algo
+  namespace: tiacourses
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/kwesikwaa/interviews.git
+    targetRevision: HEAD
+  destination:
+    server: https://kubernetes.default.svc
+    namespace: tiacourses
+    
+  syncPolicy:
+    syncOptions:
+    - CreateNamespace=true
+    automated:
+      selfHeal: true
+      prune: true

@@ -17,7 +17,7 @@ spec:
     template:
       metadata:
         labels:
-          app: python-app
+          app: kwesikwaa/python-app:latest
       spec:
         containers:
         - name: python-app
